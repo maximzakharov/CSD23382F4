@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp edd93756-ba1d-4971-a639-f18cedcd795d)
   )
-  (fp_text value "" (at 0 0) (layer "F.SilkS")
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS")
     (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp 0e76326e-4e35-4881-973c-63f913c129c6)
   )
@@ -29,9 +29,9 @@
   (pad "1" smd roundrect (at -0.325 -0.175) (size 0.35 0.25) (layers "F.Cu") (roundrect_rratio 0.4) (tstamp ad4c8998-e556-42cf-bdc2-effd83c34326))
   (pad "2" smd roundrect (at -0.325 0.175) (size 0.35 0.25) (layers "F.Cu") (roundrect_rratio 0.4) (tstamp 751843ec-9ae3-41ac-aea3-9f7f9b3e5473))
   (pad "3" smd roundrect (at 0.325 0) (size 0.35 0.6) (layers "F.Cu") (roundrect_rratio 0.2857142857) (tstamp 5c523def-b6b3-4f24-94df-f7626a5b57a4))
-  (model "eec.models/Texas_Instruments_-_CSD17483F4.step"
-    (offset (xyz 0 0 0))
+  (model "/Users/maksimzaharov/Downloads/CSD23382F4.STEP"
+    (offset (xyz -1 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -180 -90 -180))
   )
 )
